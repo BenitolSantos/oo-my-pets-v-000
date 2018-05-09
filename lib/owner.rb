@@ -64,7 +64,6 @@ class Owner
       value.each do |seperate_animal|
         seperate_animal.mood = "nervous"
       end
-      binding.pry
       value.clear
     end
   end
