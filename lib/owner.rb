@@ -8,7 +8,7 @@ class Owner
   def initialize(species)
     @species = species
     @pets = {:fishes => [], :dogs => [], :cats => []}
-    #pets needs to be initialized as an attr and pets 
+    #pets needs to be initialized as an attr and pets
     #isn't created in its own method
     @@all << self
   end
@@ -27,6 +27,16 @@ class Owner
 
   def say_species
     "I am a #{@species}." #expecting string without print or puts
+  end
+
+  def buy_fish(fish_name)
+    fish = Fish.new(fish_name)
+    @pets[:fishes] << fish
+  end
+
+  def buy_dog(dog_name)
+    fish = Dog.new(dog_name)
+    @pets[:fishes] << fish
   end
 
   def buy_fish(fish_name)
