@@ -65,6 +65,8 @@ class Owner
         seperate_animal.mood = "nervous"
       end
     end
+
+    
   end
 
   #z.chomp(loud) <- she was eating while tech coaching
