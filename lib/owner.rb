@@ -7,7 +7,8 @@ class Owner
 
   def initialize(species)
     @species = species
-    @pets = {:fishes => [], :dogs => [], :cats => []}
+    @pets = {:fishes => [], :dogs => [], :cats => []} 
+    #pets needs to be initialized as an attr and pets isn't created in its own method
     @@all << self
   end
 
