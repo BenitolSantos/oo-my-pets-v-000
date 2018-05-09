@@ -71,7 +71,7 @@ class Owner
   #z.chomp(loud) <- she was eating while tech coaching
 
   def list_pets
-    "I have #{@pets[:fishes].count} fish, #{@pets[:dogs].count} dog(s), and #{@pets[:cats].count} cat(s). "
+    "I have #{@pets[:fishes].count} fish, #{@pets[:dogs].count} dog(s), and #{@pets[:cats].count} cat(s)."
   end
 
   # code goes here
