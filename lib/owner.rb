@@ -66,7 +66,7 @@ class Owner
       end
     end
 
-    
+    @pets.values.clear
   end
 
   #z.chomp(loud) <- she was eating while tech coaching
