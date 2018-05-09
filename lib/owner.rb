@@ -26,7 +26,7 @@ class Owner
     "I am a #{@species}." #expecting string without print or puts
   end
 
-  def species
+  def pets
   end
 
 
