@@ -45,7 +45,7 @@ class Owner
   end
 
   def walk_dogs
-    @pets[:dogs]
+    @pets[:dogs][0] 
   end
 
 
