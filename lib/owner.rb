@@ -60,7 +60,10 @@ class Owner
   end
 
   def sell_pets
+    @
   end
+
+  #z.chomp(loud) <- she was eating while tech coaching
 
 
   # code goes here
