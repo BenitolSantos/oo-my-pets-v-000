@@ -61,6 +61,7 @@ class Owner
 
   def sell_pets
     @pets.each do |key,value|
+    end
   end
 
   #z.chomp(loud) <- she was eating while tech coaching
