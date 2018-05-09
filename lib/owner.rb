@@ -27,10 +27,6 @@ class Owner
     "I am a #{@species}." #expecting string without print or puts
   end
 
-  def pets
-    @pets
-  end
-
   def buy_fish(fish_name)
     fish = Fish.new(fish_name)
     @pets[:fishes] << fish
