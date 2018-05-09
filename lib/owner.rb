@@ -59,6 +59,9 @@ class Owner
     #mood is method but it is also a instance variable
   end
 
+  def sell_pets
+  end
+
 
   # code goes here
 end
