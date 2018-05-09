@@ -70,6 +70,8 @@ class Owner
 
   #z.chomp(loud) <- she was eating while tech coaching
 
+  def list_pets
+  end
 
   # code goes here
 end
