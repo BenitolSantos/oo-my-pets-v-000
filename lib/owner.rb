@@ -60,8 +60,7 @@ class Owner
   end
 
   def sell_pets
-    @pets[:fishes][0].mood = "nervous" 
-    @pets[:fishes].clear  #
+    @pets.each do |keys,values|
   end
 
   #z.chomp(loud) <- she was eating while tech coaching
