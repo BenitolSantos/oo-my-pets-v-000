@@ -60,7 +60,8 @@ class Owner
   end
 
   def sell_pets
-    @
+    @pets[:fishes][0].mood = "nervous" 
+    @pets[:fishes].clear  #
   end
 
   #z.chomp(loud) <- she was eating while tech coaching
