@@ -54,8 +54,8 @@ class Owner
     #mood is method but it is also a instance variable
   end
 
-  def walk_dogs
-    @pets[:dogs][0].mood = "happy"
+  def feed_fish
+    @pets[:fish][0].mood = "happy"
     #mood is method but it is also a instance variable
   end
 
