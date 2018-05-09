@@ -65,7 +65,6 @@ class Owner
         seperate_animal.mood = "nervous"
       end
     end
-    binding.pry
     @pets.values.clear
   end
 
