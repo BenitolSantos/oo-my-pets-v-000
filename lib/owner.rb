@@ -1,6 +1,6 @@
 class Owner
   @@all = []
-  attr_reader :species
+  attr_reader :species, :name
   def initialize(species)
     @species = species
     @@all << self
@@ -22,6 +22,6 @@ class Owner
     "I am a #{@species}." #expecting string without print or puts
   end
 
-  
+
   # code goes here
 end
