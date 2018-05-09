@@ -64,9 +64,9 @@ class Owner
       value.each do |seperate_animal|
         seperate_animal.mood = "nervous"
       end
+      binding.pry
       values.clear
     end
-    binding.pry
   end
 
   #z.chomp(loud) <- she was eating while tech coaching
