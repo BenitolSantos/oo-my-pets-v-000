@@ -19,7 +19,7 @@ class Owner
   end
 
   def say_species
-    "I am a #{@species}."
+    "I am a #{@species}." #expecting string without print or puts
   end
   # code goes here
 end
