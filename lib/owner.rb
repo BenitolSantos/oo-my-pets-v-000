@@ -67,7 +67,6 @@ class Owner
       values.clear
     end
     binding.pry
-    
   end
 
   #z.chomp(loud) <- she was eating while tech coaching
